@@ -30,6 +30,12 @@ export const DISHES = [
         category: 'appertizer'
     },
     {
+        id: '4a',
+        name: 'Canh Ga Rang Muoi',
+        price: 15.95,
+        category: 'appertizer'
+    },
+    {
         id: '5',
         name: 'Gio Du Du',
         price: 15.95,

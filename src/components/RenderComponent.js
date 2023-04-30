@@ -12,7 +12,7 @@ const RenderDish = (props) => {
             )
     });
     return(
-        <div className='container'>
+        <div className='container Header mb-4'>
             <div className='row'>
                 {renderDish}
             </div>

@@ -5,46 +5,46 @@ class Header extends Component{
     render(){
         return(
             <React.Fragment>
-                <div className='container mt-4 mb-4'>
+                <div className='container mt-4 mb-4 Header01'>
                    {/*} <div className='row'> */}
                         <Nav justified fill pills tabs >
                             <NavItem>
-                                <Link style={{fontSize:'18px'}} to="/newDish">
-                                New
+                                <Link style={{fontSize:'18px',color:'white'}} to="/newDish">
+                                49-61a
                                 </Link>
                             </NavItem>
                             <NavItem>
-                                <Link style={{fontSize:'18px'}}  to="/appertizer">
-                                Appertizer
+                                <Link style={{fontSize:'18px',color:'white'}}  to="/appertizer">
+                                1-6d
                                 </Link>
                             </NavItem>
                             <NavItem> 
-                                <Link style={{fontSize:'18px'}} to="/pho">
-                                Pho
+                                <Link style={{fontSize:'18px',color:'white'}} to="/pho">
+                                7-15
                                 </Link>
                             </NavItem>
                             <NavItem>
-                                <Link style={{fontSize:'18px'}} to="/bun">
-                                Bun
+                                <Link style={{fontSize:'18px',color:'white'}} to="/bun">
+                                16-24
                                 </Link>
                             </NavItem>
                             <NavItem>
-                                <Link style={{fontSize:'18px'}} to="/vermicelli">
-                                Vermicelli
+                                <Link style={{fontSize:'18px',color:'white'}} to="/vermicelli">
+                                26-40
                                 </Link>
                             </NavItem>
                             <NavItem>
-                                <Link style={{fontSize:'18px'}} to="/com">
-                                Com
+                                <Link style={{fontSize:'18px',color:'white'}} to="/com">
+                                34-48
                                 </Link>
                             </NavItem>
                             <NavItem>
-                                <Link style={{fontSize:'18px'}} to="/drink">
-                                Drink
+                                <Link style={{fontSize:'18px',color:'white'}} to="/drink">
+                                62-75
                                 </Link>
                             </NavItem>
                             <NavItem>
-                                <Link style={{fontSize:'18px'}} to="sideOrder">
+                                <Link style={{fontSize:'18px',color:'white'}} to="sideOrder">
                                 SideOrder
                                 </Link>
                             </NavItem>

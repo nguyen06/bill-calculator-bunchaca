@@ -38,5 +38,21 @@
 }
 .table-scrolling{
   background-color: lightblue;
+  margin-bottom: 23vh;
+}
+
+.Header{
+  position: fixed;
+  bottom:0;
+  background-color: darkblue;
+  width:100%;
+  padding-bottom: 5px;
+}
+.Header01{
+  position: fixed;
+  bottom:17vh;
+
+  width:100%;
+  background-color: darkblue;
 }
 
