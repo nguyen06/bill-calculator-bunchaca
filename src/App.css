@@ -43,14 +43,14 @@
 
 .Header{
   position: fixed;
-  bottom:0;
+  bottom:3vh;
   background-color: darkblue;
   width:100%;
   padding-bottom: 5px;
 }
 .Header01{
   position: fixed;
-  bottom:23vh;
+  bottom:0;
 
   width:100%;
   background-color: darkblue;
