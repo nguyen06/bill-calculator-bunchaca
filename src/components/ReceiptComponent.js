@@ -6,9 +6,9 @@ const Receipt = (props) => {
         const receipt = props.receipt.map((item)=>{
             return(
                     <tr>
-                        <th>{item.id}</th>
-                        <th>{item.name}</th>
-                        <th>{item.price}</th>
+                        <th><p style={{fontSize:"12px"}}>{item.id}</p ></th>
+                        <th><p style={{fontSize:"12px"}}>{item.name}</p ></th>
+                        <th><p style={{fontSize:"12px"}}>{item.price}</p ></th>
                     </tr>
                 )
         });
@@ -39,9 +39,9 @@ const Receipt = (props) => {
                     <Table>
                         <tbody>
                             <tr>
-                                <th><a style={{color:'red', fontSize:'30px'}}>Total</a></th>
+                                <th><p style={{color:'red', fontSize:'15px'}}>Total</p ></th>
                                 <th></th>
-                                <th><a style={{color:'red', fontSize:'30px'}}>{total.toFixed(2)}</a></th>
+                                <th><p style={{color:'red', fontSize:'15px'}}>{total.toFixed(2)}</p ></th>
                             </tr>
                         </tbody>
                     </Table>

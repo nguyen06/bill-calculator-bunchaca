@@ -38,7 +38,6 @@
 }
 .table-scrolling{
   background-color: lightblue;
-  margin-bottom: 23vh;
 }
 
 .Header{
@@ -54,5 +53,8 @@
 
   width:100%;
   background-color: darkblue;
+}
+.table th{
+  padding: 0.35rem !important;
 }
 
