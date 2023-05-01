@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/bill-calculator-bunchaca/static/css/main.b2420b93.css",
-    "main.js": "/bill-calculator-bunchaca/static/js/main.d2ea039b.js",
+    "main.css": "/bill-calculator-bunchaca/static/css/main.1fbc9dd8.css",
+    "main.js": "/bill-calculator-bunchaca/static/js/main.cc06b28e.js",
     "static/js/787.372b21cb.chunk.js": "/bill-calculator-bunchaca/static/js/787.372b21cb.chunk.js",
     "static/media/logo.svg": "/bill-calculator-bunchaca/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/bill-calculator-bunchaca/index.html",
-    "main.b2420b93.css.map": "/bill-calculator-bunchaca/static/css/main.b2420b93.css.map",
-    "main.d2ea039b.js.map": "/bill-calculator-bunchaca/static/js/main.d2ea039b.js.map",
+    "main.1fbc9dd8.css.map": "/bill-calculator-bunchaca/static/css/main.1fbc9dd8.css.map",
+    "main.cc06b28e.js.map": "/bill-calculator-bunchaca/static/js/main.cc06b28e.js.map",
     "787.372b21cb.chunk.js.map": "/bill-calculator-bunchaca/static/js/787.372b21cb.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b2420b93.css",
-    "static/js/main.d2ea039b.js"
+    "static/css/main.1fbc9dd8.css",
+    "static/js/main.cc06b28e.js"
   ]
 }
