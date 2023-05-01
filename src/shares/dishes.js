@@ -596,13 +596,13 @@ export const DISHES = [
         id: 'chaCa',
         name: 'Them Cha ca',
         price: 3,
-        category: 'side order'
+        category: 'bun'
     },
     {
         id: 'chaMuc',
         name: 'Them Cha Muc',
         price: 3,
-        category: 'side order'
+        category: 'bun'
     },
     {
         id: 'box',
