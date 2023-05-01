@@ -6,7 +6,7 @@ const RenderDish = (props) => {
         return(
                 <div  className="col-2 col-md-3 p-1" >
                     <Card onClick={()=>props.onClick(dish)} color="primary" outline="true" key={dish.id}>
-                        <CardTitle color="white">{dish.id}</CardTitle>
+                        <CardTitle style={{fontSize: '15px'}} color="white">{dish.id}</CardTitle>
                     </Card>
                 </div>
             )
