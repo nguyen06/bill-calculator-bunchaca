@@ -72,14 +72,14 @@ export const DISHES = [
         category: 'appertizer'
     },
     {
-        id: 'cha gio',
-        name: 'cha gio',
+        id: 'combo CG',
+        name: 'Combo cha gio',
         price: 7.50,
         category: 'side order'
     },
     {
-        id: 'goi cuoi',
-        name: 'goi cuon',
+        id: 'combo GC',
+        name: 'Combo goi cuon',
         price: 7.50,
         category: 'side order'
     },
@@ -437,97 +437,97 @@ export const DISHES = [
         category: 'com'
     },
     {
-        id: '62',
+        id: 'ICF',
         name: 'cafe sua da',
         price: 8.00,
         category: 'drink'
     },
     {
-        id: '63',
+        id: 'HCF',
         name: 'cafe sua nong',
         price: 8.00,
         category: 'drink'
     },
     {
-        id: '64',
+        id: 'BCF',
         name: 'cafe den da',
         price: 8.00,
         category: 'drink'
     },
     {
-        id: '65',
+        id: 'NDC',
         name: 'nuoc da chanh',
         price: 6.00,
         category: 'drink'
     },
     {
-        id: '65a',
+        id: 'TVai',
         name: 'trai vai',
         price: 6.00,
         category: 'drink'
     },
     {
-        id: '66',
+        id: 'SDC',
         name: 'soda chanh',
         price: 7.00,
         category: 'drink'
     },
     {
-        id: '66a',
+        id: 'SDCM',
         name: 'soda chang muoi',
         price: 7.00,
         category: 'drink'
     },
     {
-        id: '67',
+        id: 'NCAM',
         name: 'nuoc cam',
         price: 7.00,
         category: 'drink'
     },
     {
-        id: '68',
+        id: 'ND',
         name: 'nuoc dua',
         price: 8.00,
         category: 'drink'
     },
     {
-        id: '69',
+        id: 'POP',
         name: 'nuoc ngot',
         price: 3.00,
         category: 'drink'
     },
     {
-        id: '70',
+        id: 'DD',
         name: 'che dau do',
         price: 8.00,
         category: 'drink'
     },
     {
-        id: '71',
+        id: 'CBM',
         name: 'che ba mau',
         price: 8.00,
         category: 'drink'
     },
     {
-        id: '72',
+        id: 'STB',
         name: 'sinh to bo',
         price: 8.00,
         category: 'drink'
     },
     {
-        id: '73',
+        id: 'STM',
         name: 'sinh to mit',
         price: 8.00,
         category: 'drink'
     },
     {
-        id: '74',
+        id: 'STD',
         name: 'sinh to dau',
         price: 8.00,
         category: 'drink'
     },
     {
-        id: '75',
+        id: 'STSR',
         name: 'sinh to sau rieng',
         price: 8.00,
         category: 'drink'
@@ -591,6 +591,30 @@ export const DISHES = [
         name: 'Chem Chep Xao Toi Ot',
         price: 23.95,
         category: 'new dish'
+    },,
+    {
+        id: 'chaCa',
+        name: 'Them Cha ca',
+        price: 3,
+        category: 'side order'
+    },
+    {
+        id: 'chaMuc',
+        name: 'Them Cha Muc',
+        price: 3,
+        category: 'side order'
+    },
+    {
+        id: 'box',
+        name: 'Them box',
+        price: 0.5,
+        category: 'side order'
+    } ,
+    {
+        id: 'cup',
+        name: 'Them cup',
+        price: 0.25,
+        category: 'side order'
     }
    
 ]
