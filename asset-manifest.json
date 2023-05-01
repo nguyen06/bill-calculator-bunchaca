@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/bill-calculator-bunchaca/static/css/main.55ae689a.css",
+    "main.css": "/bill-calculator-bunchaca/static/css/main.02b34411.css",
     "main.js": "/bill-calculator-bunchaca/static/js/main.d2ea039b.js",
     "static/js/787.372b21cb.chunk.js": "/bill-calculator-bunchaca/static/js/787.372b21cb.chunk.js",
     "static/media/logo.svg": "/bill-calculator-bunchaca/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/bill-calculator-bunchaca/index.html",
-    "main.55ae689a.css.map": "/bill-calculator-bunchaca/static/css/main.55ae689a.css.map",
+    "main.02b34411.css.map": "/bill-calculator-bunchaca/static/css/main.02b34411.css.map",
     "main.d2ea039b.js.map": "/bill-calculator-bunchaca/static/js/main.d2ea039b.js.map",
     "787.372b21cb.chunk.js.map": "/bill-calculator-bunchaca/static/js/787.372b21cb.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.55ae689a.css",
+    "static/css/main.02b34411.css",
     "static/js/main.d2ea039b.js"
   ]
 }
