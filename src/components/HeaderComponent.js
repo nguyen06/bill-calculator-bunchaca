@@ -9,43 +9,43 @@ class Header extends Component{
                    {/*} <div className='row'> */}
                         <Nav justified fill pills tabs >
                             <NavItem>
-                                <Link style={{fontSize:'25px',color:'white'}} to="/newDish">
+                                <Link style={{fontSize:'19px',color:'white'}} to="/newDish">
                                 49-61a
                                 </Link>
                             </NavItem>
                             <NavItem>
-                                <Link style={{fontSize:'25px',color:'white'}}  to="/appertizer">
+                                <Link style={{fontSize:'19px',color:'white'}}  to="/appertizer">
                                 1-6d
                                 </Link>
                             </NavItem>
                             <NavItem> 
-                                <Link style={{fontSize:'25px',color:'white'}} to="/pho">
+                                <Link style={{fontSize:'19px',color:'white'}} to="/pho">
                                 7-15
                                 </Link>
                             </NavItem>
                             <NavItem>
-                                <Link style={{fontSize:'25px',color:'white'}} to="/bun">
+                                <Link style={{fontSize:'19px',color:'white'}} to="/bun">
                                 16-24
                                 </Link>
                             </NavItem>
                             <NavItem>
-                                <Link style={{fontSize:'25px',color:'white'}} to="/vermicelli">
+                                <Link style={{fontSize:'19px',color:'white'}} to="/vermicelli">
                                 26-40
                                 </Link>
                             </NavItem>
                             <NavItem>
-                                <Link style={{fontSize:'25px',color:'white'}} to="/com">
+                                <Link style={{fontSize:'19px',color:'white'}} to="/com">
                                 34-48
                                 </Link>
                             </NavItem>
                             <NavItem>
-                                <Link style={{fontSize:'25px',color:'white'}} to="/drink">
+                                <Link style={{fontSize:'19px',color:'white'}} to="/drink">
                                 
                                 Drink
                                 </Link>
                             </NavItem>
                             <NavItem>
-                                <Link style={{fontSize:'25px',color:'white'}} to="sideOrder">
+                                <Link style={{fontSize:'19px',color:'white'}} to="sideOrder">
                                 SideOrder
                                 </Link>
                             </NavItem>

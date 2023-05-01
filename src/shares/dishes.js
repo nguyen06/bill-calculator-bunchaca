@@ -72,13 +72,13 @@ export const DISHES = [
         category: 'appertizer'
     },
     {
-        id: 'combo CG',
+        id: 'cha gio',
         name: 'Combo cha gio',
         price: 7.50,
         category: 'side order'
     },
     {
-        id: 'combo GC',
+        id: 'goi cuon',
         name: 'Combo goi cuon',
         price: 7.50,
         category: 'side order'
