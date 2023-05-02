@@ -85,19 +85,7 @@ export const DISHES = [
     },
     {
         id: 'suong nuong',
-        name: 'Suong Nuong',
-        price: 5.78,
-        category: 'side order'
-    },
-    {
-        id: 'nem nuong',
-        name: 'Nem Nuong',
-        price: 5.78,
-        category: 'side order'
-    },
-    {
-        id: 'ga nuong',
-        name: 'Ga Nuong',
+        name: 'Suon Nuong/ga/nem',
         price: 5.78,
         category: 'side order'
     },
@@ -127,25 +115,7 @@ export const DISHES = [
     },
     {
         id: 'tai',
-        name: 'Tai',
-        price: 9.98,
-        category: 'side order'
-    },
-    {
-        id: 'nam',
-        name: 'Nam',
-        price: 9.98,
-        category: 'side order'
-    },
-    {
-        id: 'sach',
-        name: 'Sach',
-        price: 9.98,
-        category: 'side order'
-    },
-    {
-        id: 'gan',
-        name: 'Gan',
+        name: 'Tai/nam/gan/sach/bv',
         price: 9.98,
         category: 'side order'
     },
