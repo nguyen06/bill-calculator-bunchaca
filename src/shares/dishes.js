@@ -72,70 +72,70 @@ export const DISHES = [
         category: 'appertizer'
     },
     {
-        id: 'cha gio',
+        id: 'Combo kho',
         name: 'Combo cha gio/goi cuon',
         price: 4.73,
         category: 'side order'
     },
     {
-        id: 'Che',
+        id: 'Combo nuoc',
         name: 'Combo che/cafe/dua',
         price: 7.30,
         category: 'side order'
     },
     {
-        id: 'suong nuong',
+        id: 'Thit nuong',
         name: 'Suon Nuong/ga/nem',
         price: 5.78,
         category: 'side order'
     },
     {
-        id: 'bo nuong',
-        name: 'Bo Nuong',
+        id: 'suon bo',
+        name: 'Suon bo',
         price: 7.88,
         category: 'side order'
     },
     {
-        id: 'ga xien',
-        name: 'Ga Xien',
+        id: 'Thit xien',
+        name: 'Ga/heo/tom/bo Xien',
         price: 5.78,
         category: 'side order'
     },
     {
-        id: 'heo xien',
-        name: 'Heo Xien',
-        price: 5.78,
-        category: 'side order'
-    },
-    {
-        id: 'bo xien',
-        name: 'bo xien',
-        price: 5.78,
-        category: 'side order'
-    },
-    {
-        id: 'tai',
+        id: 'Etra Thit',
         name: 'Tai/nam/gan/sach/bv',
         price: 9.98,
         category: 'side order'
     },
     {
-        id: 'tom',
-        name: 'Tom',
-        price: 9.98,
+        id: '$3',
+        name: 'Extra $3',
+        price: 3,
         category: 'side order'
     },
     {
-        id: 'com',
-        name: 'Com',
+        id: '$3.5',
+        name: 'extra $3.5',
         price: 3.50,
         category: 'side order'
     },
     {
-        id: 'bun',
-        name: 'Bun',
-        price: 3.50,
+        id: '$4',
+        name: 'Extra $4',
+        price: 4,
         category: 'side order'
+    },
+    {
+        id: '$5',
+        name: 'extra $5',
+        price: 5,
+        category: 'side order'
+    },
+    {
+        id: 'pho 0',
+        name: 'pho khong',
+        price: 12,
+        category: 'pho'
     },
     {
         id: '7a',
@@ -407,20 +407,8 @@ export const DISHES = [
         category: 'com'
     },
     {
-        id: 'ICF',
-        name: 'cafe sua da',
-        price: 7.50,
-        category: 'drink'
-    },
-    {
-        id: 'HCF',
-        name: 'cafe sua nong',
-        price: 7.50,
-        category: 'drink'
-    },
-    {
-        id: 'BCF',
-        name: 'cafe den da',
+        id: 'Coffee',
+        name: 'cafe sua da/hot/black',
         price: 7.50,
         category: 'drink'
     },
@@ -437,14 +425,8 @@ export const DISHES = [
         category: 'drink'
     },
     {
-        id: 'SDC',
-        name: 'soda chanh',
-        price: 729,
-        category: 'drink'
-    },
-    {
-        id: 'SDCM',
-        name: 'soda chang muoi',
+        id: 'So da',
+        name: 'soda chanh/chanh muoi',
         price: 7.29,
         category: 'drink'
     },
@@ -467,39 +449,27 @@ export const DISHES = [
         category: 'drink'
     },
     {
-        id: 'DD',
-        name: 'che dau do',
+        id: 'Che',
+        name: 'che dau do/ba mau',
         price: 7.50,
         category: 'drink'
     },
     {
-        id: 'CBM',
-        name: 'che ba mau',
-        price: 7.50,
-        category: 'drink'
-    },
-    {
-        id: 'STB',
-        name: 'sinh to bo',
+        id: 'Sinh To',
+        name: 'sinh to bo/dau/mit/sau rieng',
         price: 7.88,
         category: 'drink'
     },
     {
-        id: 'STM',
-        name: 'sinh to mit',
-        price: 7.88,
+        id: 'Local Beer',
+        name: 'Local Bia',
+        price: 5.18,
         category: 'drink'
     },
     {
-        id: 'STD',
-        name: 'sinh to dau',
-        price: 7.88,
-        category: 'drink'
-    },
-    {
-        id: 'STSR',
-        name: 'sinh to sau rieng',
-        price: 7.88,
+        id: 'Import Bia',
+        name: 'Import Bia',
+        price: 6.90,
         category: 'drink'
     },
    {
@@ -584,19 +554,6 @@ export const DISHES = [
         name: 'Them cup',
         price: 0.25,
         category: 'side order'
-    },
-    {
-        id: '+Ca',
-        name: 'Them ca/Tom/Muc',
-        price: 3,
-        category: 'side order'
-    },    
-    {
-        id: '+Nam',
-        name: 'Them Nam/Tai/Gan/Sach',
-        price: 3,
-        category: 'side order'
-    }    
-    
+    }   
    
 ]
