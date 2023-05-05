@@ -60,13 +60,13 @@ export const DISHES = [
         category: 'appertizer'
     },
     {
-        id: '6c',
+        id: 'BVien',
         name: 'Bo Vien',
         price: 11.03,
         category: 'appertizer'
     },
     {
-        id: '6d',
+        id: 'S.Rieu',
         name: 'Rieu Cua',
         price: 11.03,
         category: 'appertizer'
@@ -80,43 +80,43 @@ export const DISHES = [
     {
         id: 'Combo nuoc',
         name: 'Combo che/cafe/dua',
-        price: 7.30,
+        price: 7.88,
         category: 'side order'
     },
     {
-        id: 'Thit nuong',
+        id: 'Nem Nuong',
         name: 'Suon Nuong/ga/nem',
-        price: 5.78,
+        price: 6.83,
         category: 'side order'
     },
     {
         id: 'suon bo',
         name: 'Suon bo',
-        price: 7.88,
+        price: 8.93,
         category: 'side order'
     },
     {
         id: 'Thit xien',
         name: 'Ga/heo/tom/bo Xien',
-        price: 5.78,
+        price: 6.83,
         category: 'side order'
     },
     {
-        id: 'Etra Thit',
+        id: 'Dia Tai',
         name: 'Tai/nam/gan/sach/bv',
-        price: 9.98,
+        price: 11.03,
         category: 'side order'
     },
     {
-        id: '$3',
-        name: 'Extra $3',
-        price: 3,
+        id: '$4.73',
+        name: 'Extra trung',
+        price: 4.73,
         category: 'side order'
     },
     {
-        id: '$3.5',
-        name: 'extra $3.5',
-        price: 3.50,
+        id: '$4.15',
+        name: 'extra com/bun',
+        price: 4.15,
         category: 'side order'
     },
     {
@@ -140,7 +140,7 @@ export const DISHES = [
     {
         id: '7a',
         name: 'Pho Xuong Bo',
-        price: 18.85,
+        price: 20.95,
         category: 'pho'
     },
     {
@@ -409,73 +409,85 @@ export const DISHES = [
     {
         id: 'Coffee',
         name: 'cafe sua da/hot/black',
-        price: 7.50,
+        price: 8.40,
         category: 'drink'
     },
     {
         id: 'NDC',
         name: 'nuoc da chanh',
-        price: 7.50,
+        price: 6.30,
         category: 'drink'
     },
     {
         id: 'TVai',
         name: 'trai vai',
-        price: 5.25,
+        price: 6.30,
         category: 'drink'
     },
     {
         id: 'So da',
         name: 'soda chanh/chanh muoi',
-        price: 7.29,
+        price: 7.84,
         category: 'drink'
     },
     {
         id: 'NCAM',
         name: 'nuoc cam',
-        price: 6.83,
+        price: 7.35,
         category: 'drink'
     },
     {
         id: 'ND',
         name: 'nuoc dua',
-        price: 7.50,
+        price: 8.40,
         category: 'drink'
     },
     {
         id: 'POP',
         name: 'nuoc ngot',
-        price: 2.81,
+        price: 3.36,
         category: 'drink'
     },
     {
         id: 'Che',
         name: 'che dau do/ba mau',
-        price: 7.50,
+        price: 8.40,
         category: 'drink'
     },
     {
         id: 'Sinh To',
         name: 'sinh to bo/dau/mit/sau rieng',
-        price: 7.88,
+        price: 8.40,
+        category: 'drink'
+    },
+    {
+        id: 'Da Me',
+        name: 'Da Me',
+        price: 6.30,
+        category: 'drink'
+    },
+    {
+        id: 'Cha Tranh',
+        name: 'Cha Da Chanh',
+        price: 6.30,
         category: 'drink'
     },
     {
         id: 'Local Beer',
         name: 'Local Bia',
-        price: 5.18,
+        price: 5.95,
         category: 'drink'
     },
     {
         id: 'Import Bia',
         name: 'Import Bia',
-        price: 6.90,
+        price: 7.74,
         category: 'drink'
     },
    {
         id: '49',
         name: 'Com Xao Hai San',
-        price: 23.05,
+        price: 24.10,
         category: 'new dish'
     },
     {
