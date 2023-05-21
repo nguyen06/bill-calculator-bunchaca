@@ -23,6 +23,11 @@ class Main extends Component{
     resetDish =()=>{
         this.setState( initalState);
     }
+    removeLast =()=>{
+        this.setState({
+            selectedDishes: this.state.selectedDishes.slice(0,-1)
+        })
+    }
 
     render(){
         const appertizerPage = () => {
@@ -70,7 +75,15 @@ class Main extends Component{
             <div>
                 <div className='container mt-4 mb-4 '>
                     <div className='row justify-content-center'>
-                        <Button color='primary' onClick={this.resetDish}>New Bill</Button>
+                        <div className='float-left'>
+                            <Button color='primary' onClick={this.resetDish}>New Bill</Button>
+                        </div>
+                        <div>
+                            <Button >+++++++++</Button>
+                        </div>
+                        <div className='float-right'>
+                            <Button color='primary' onClick={this.removeLast}>PoP</Button>
+                        </div>
                     </div>
                 </div>
                 <Receipt receipt={this.state.selectedDishes}/>
