@@ -1,75 +1,75 @@
 export const DISHES = [
     {
-        id: '1',
+        id: '01',
         name: 'Cha gio',
         price: 11.03,
-        category: 'appertizer'
+        category: '1-6d'
     },
     {
-        id: '2',
+        id: '02',
         name: 'Goi Cuoi Tom',
         price: 11.03,
-        category: 'appertizer'
+        category: '1-6d'
     },
     {
-        id: '3',
+        id: '03',
         name: 'Goi Cuon Tom Thit ',
         price: 11.03,
-        category: 'appertizer'
+        category: '1-6d'
     },
     {
         id: '3a',
         name: 'Goi Cuoi Thit Nuong (Heo/Bo/Ga)',
         price: 11.03,
-        category: 'appertizer'
+        category: '1-6d'
     },
     {
-        id: '4',
+        id: '04',
         name: 'Cha Muc',
         price: 18.85,
-        category: 'appertizer'
+        category: '1-6d'
     },
     {
         id: '4a',
         name: 'Canh Ga Rang Muoi',
         price: 16.75,
-        category: 'appertizer'
+        category: '1-6d'
     },
     {
-        id: '5',
+        id: '05',
         name: 'Gio Du Du',
         price: 16.75,
-        category: 'appertizer'
+        category: '1-6d'
     },
     {
-        id: '6',
+        id: '06',
         name: 'Cha Ca',
         price: 17.80,
-        category: 'appertizer'
+        category: '1-6d'
     },
     {
         id: 'cTrang',
         name: 'Cha Ca Vien Trang',
         price: 16.75,
-        category: 'appertizer'
+        category: '1-6d'
     },
     {
         id: 'cVang',
         name: 'Cha Ca Vien Vang',
         price: 16.75,
-        category: 'appertizer'
+        category: '1-6d'
     },
     {
         id: 'BVien',
         name: 'Bo Vien',
         price: 11.03,
-        category: 'appertizer'
+        category: '1-6d'
     },
     {
         id: 'S.Rieu',
         name: 'Rieu Cua',
         price: 11.03,
-        category: 'appertizer'
+        category: '1-6d'
     },
     {
         id: 'Combo kho',
@@ -108,13 +108,13 @@ export const DISHES = [
         category: 'side order'
     },
     {
-        id: '$4.73',
+        id: 'eTrung',
         name: 'Extra trung',
         price: 4.73,
         category: 'side order'
     },
     {
-        id: '$4.15',
+        id: 'eCom',
         name: 'extra com/bun',
         price: 4.15,
         category: 'side order'
@@ -135,276 +135,276 @@ export const DISHES = [
         id: 'pho 0',
         name: 'pho khong',
         price: 12,
-        category: 'pho'
+        category: '7-15'
     },
     {
         id: '7a',
         name: 'Pho Xuong Bo',
         price: 20.95,
-        category: 'pho'
+        category: '7-15'
     },
     {
-        id: '7',
+        id: '07',
         name: 'Pho Dac Biet',
         price: 17.80,
-        category: 'pho'
+        category: '7-15'
     },
     {
-        id: '8',
+        id: '08',
         name: 'Pho tai',
         price: 17.80,
-        category: 'pho'
+        category: '7-15'
     },
     {
-        id: '9',
+        id: '09',
         name: 'Pho tai sach',
         price: 17.80,
-        category: 'pho'
+        category: '7-15'
     },
     {
         id: '10',
         name: 'Pho Nam',
         price: 17.80,
-        category: 'pho'
+        category: '7-15'
     },
     {
         id: '11',
         name: 'Pho Nam Bo Vien',
         price: 17.80,
-        category: 'pho'
+        category: '7-15'
     },
     {
         id: '12',
         name: 'Pho Bo Vien',
         price: 17.80,
-        category: 'pho'
+        category: '7-15'
     },
     {
         id: '13',
         name: 'Pho Tai Gan Sach',
         price: 17.80,
-        category: 'pho'
+        category: '7-15'
     },
     {
         id: '14',
         name: 'Pho Nam Gan Sach',
         price: 17.80,
-        category: 'pho'
+        category: '7-15'
     },
     {
         id: '15',
         name: 'Pho Tai Nam Gan Sach',
         price: 17.80,
-        category: 'pho'
+        category: '7-15'
     },
     {
         id: '16',
         name: 'Hu Tieu Do Bien Chua Cay',
         price: 17.80,
-        category: 'bun'
+        category: '16-25'
     },
     {
         id: '17',
         name: 'Hu Tieu Do Bien',
         price: 17.80,
-        category: 'bun'
+        category: '16-25'
     },
     {
         id: '18',
         name: 'Hu Tieu Dac Biet',
         price: 17.80,
-        category: 'bun'
+        category: '16-25'
     },
     {
         id: '19',
         name: 'Hu Tieu Ca Vien',
         price: 17.80,
-        category: 'bun'
+        category: '16-25'
     },
     {
         id: '20',
         name: 'Hu Tieu Ca',
         price: 17.80,
-        category: 'bun'
+        category: '16-25'
     },
     {
         id: '21',
         name: 'Bu Ca Chien',
         price: 17.80,
-        category: 'bun'
+        category: '16-25'
     },
     {
         id: '22',
         name: 'Bun Ca',
         price: 17.80,
-        category: 'bun'
+        category: '16-25'
     },
     {
         id: '23',
         name: 'Bun Rieu',
         price: 18.85,
-        category: 'bun'
+        category: '16-25'
     },
     {
         id: '24',
         name: 'Bun Cha Ca',
         price: 17.80,
-        category: 'bun'
+        category: '16-25'
     },
     {
         id: '25',
         name: 'Bun Cha Muc',
         price: 18.85,
-        category: 'bun'
+        category: '16-25'
     },
     {
         id: '26',
         name: 'Bun Thit Nuong Cha Gio',
         price: 18.85,
-        category: 'vermicelli'
+        category: '26-36'
     },
     {
         id: '27',
         name: 'Bun Ga Nuong Cha gio',
         price: 18.85,
-        category: 'vermicelli'
+        category: '26-36'
     },
     {
         id: '28',
         name: 'Bun Bo Nuong Cha Gio',
         price: 18.85,
-        category: 'vermicelli'
+        category: '26-36'
     },
     {
         id: '29',
         name: 'Bun Nem Nuong Cha Gio',
         price: 18.85,
-        category: 'vermicelli'
+        category: '26-36'
     },
     {
         id: '30',
         name: 'Bun Tom Nuong Cha gio',
         price: 18.85,
-        category: 'vermicelli'
+        category: '26-36'
     },
     {
         id: '31',
         name: 'Bun Tom Nuong, Heo Nuong',
         price: 18.85,
-        category: 'vermicelli'
+        category: '26-36'
     },
     {
         id: '32',
         name: 'Bun Tom Nuong, Ga Nuong',
         price: 18.85,
-        category: 'vermicelli'
+        category: '26-36'
     },
     {
         id: '33',
         name: 'Bun Tom Nuong Bo Nuong',
         price: 18.85,
-        category: 'vermicelli'
+        category: '26-36'
     },
     {
         id: '33a',
         name: 'Bun Tom Nuong Nem Nuong',
         price: 18.85,
-        category: 'vermicelli'
+        category: '26-36'
     },{
         id: '37',
         name: 'Bun Heo Nuong Nem Nuong',
         price: 18.85,
-        category: 'vermicelli'
+        category: '37-48'
     },
     {
         id: '38',
         name: 'Bun Ga Nuong Nem Nuong',
         price: 18.85,
-        category: 'vermicelli'
+        category: '37-48'
     },
     {
         id: '40',
         name: 'Bun Bo Nuong Nem Nuong',
         price: 18.85,
-        category: 'vermicelli'
+        category: '37-48'
     },
         {
         id: '34',
         name: 'Com Suon Nem Nuong',
         price: 18.85,
-        category: 'com'
+        category: '26-36'
     },
     {
         id: '35',
         name: 'Com Ga Nem Nuong',
         price: 18.85,
-        category: 'com'
+        category: '26-36'
     },
     {
         id: '36',
         name: 'Com Suon Nuong',
         price: 18.85,
-        category: 'com'
+        category: '26-36'
     },
     {
         id: '39',
         name: 'Com Ga Nuong',
         price: 18.85,
-        category: 'com'
+        category: '37-48'
     },
     {
         id: '41',
         name: 'Com Bo Trung',
         price: 19.90,
-        category: 'com'
+        category: '37-48'
     },
     {
         id: '42',
         name: 'Com Suon Bo Nuong',
         price: 19.90,
-        category: 'com'
+        category: '37-48'
     },
     {
         id: '42a',
         name: 'Com Bo Nem Nuong',
         price: 19.90,
-        category: 'com'
+        category: '37-48'
     },
     
     {
         id: '43',
         name: 'Com Suon Trung',
         price: 18.85,
-        category: 'com'
+        category: '37-48'
     },
     {
         id: '44',
         name: 'Com Ga Trung',
         price: 18.85,
-        category: 'com'
+        category: '37-48'
     },
     {
         id: '45',
         name: 'Com Suon Ga',
         price: 18.85,
-        category: 'com'
+        category: '37-48'
     },
     {
         id: '46',
         name: 'Com Bo Suon',
         price: 19.90,
-        category: 'com'
+        category: '37-48'
     },
     {
         id: '47',
         name: 'Com Bo Ga',
         price: 19.90,
-        category: 'com'
+        category: '37-48'
     },{
         id: '48',
         name: 'Com Suon Ga Trung',
         price: 19.90,
-        category: 'com'
+        category: '37-48'
     },
     {
         id: 'Coffee',
@@ -547,13 +547,13 @@ export const DISHES = [
         id: 'chaCa',
         name: 'Them Cha ca',
         price: 3.11,
-        category: 'bun'
+        category: '16-25'
     },
     {
         id: 'chaMuc',
         name: 'Them Cha Muc',
         price: 3.30,
-        category: 'bun'
+        category: '16-25'
     },
     {
         id: 'box',

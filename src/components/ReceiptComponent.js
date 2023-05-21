@@ -6,8 +6,8 @@ const Receipt = (props) => {
         const receipt = props.receipt.map((item)=>{
             return(
                     <tr>
-                        <th><p style={{fontSize:"12px"}}>{item.id}</p ></th>
-                        <th><p style={{fontSize:"12px"}}>{item.name}</p ></th>
+                        <th><p style={{fontSize:"12px"}}>{item.id.substring(0,2)}</p ></th>
+                        <th><p style={{fontSize:"12px"}}>{item.name.substring(0,10)}</p ></th>
                         <th><p style={{fontSize:"12px"}}>{item.price}</p ></th>
                     </tr>
                 )

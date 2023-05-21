@@ -14,28 +14,28 @@ class Header extends Component{
                                 </Link>
                             </NavItem>
                             <NavItem>
-                                <Link style={{fontSize:'15px',color:'white'}}  to="/appertizer">
+                                <Link style={{fontSize:'15px',color:'white'}}  to="/1-6d">
                                 1-6d
                                 </Link>
                             </NavItem>
                             <NavItem> 
-                                <Link style={{fontSize:'15px',color:'white'}} to="/pho">
+                                <Link style={{fontSize:'15px',color:'white'}} to="/7-15">
                                 7-15
                                 </Link>
                             </NavItem>
                             <NavItem>
-                                <Link style={{fontSize:'15px',color:'white'}} to="/bun">
+                                <Link style={{fontSize:'15px',color:'white'}} to="/16-25">
                                 16-24
                                 </Link>
                             </NavItem>
                             <NavItem>
-                                <Link style={{fontSize:'15px',color:'white'}} to="/vermicelli">
-                                26-40
+                                <Link style={{fontSize:'15px',color:'white'}} to="/26-36">
+                                26-36
                                 </Link>
                             </NavItem>
                             <NavItem>
-                                <Link style={{fontSize:'15px',color:'white'}} to="/com">
-                                34-48
+                                <Link style={{fontSize:'15px',color:'white'}} to="/37-48">
+                                37-48
                                 </Link>
                             </NavItem>
                             <NavItem>

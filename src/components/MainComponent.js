@@ -27,7 +27,7 @@ class Main extends Component{
     render(){
         const appertizerPage = () => {
             return(
-                <RenderDish dishes={this.state.dishes.filter((dish)=>dish.category ==='appertizer')} onClick={(dish)=>this.onDishSelect(dish)}  />
+                <RenderDish dishes={this.state.dishes.filter((dish)=>dish.category ==='1-6d')} onClick={(dish)=>this.onDishSelect(dish)}  />
             )
         }
         const newDishPage = () => {
@@ -37,22 +37,22 @@ class Main extends Component{
         }
         const phoPage = () => {
             return(
-                <RenderDish dishes={this.state.dishes.filter((dish)=>dish.category ==='pho')} onClick={(dish)=>this.onDishSelect(dish)} />
+                <RenderDish dishes={this.state.dishes.filter((dish)=>dish.category ==='7-15')} onClick={(dish)=>this.onDishSelect(dish)} />
             )
         }
         const bunPage = () => {
             return(
-                <RenderDish dishes={this.state.dishes.filter((dish)=>dish.category ==='bun')} onClick={(dish)=>this.onDishSelect(dish)} />
+                <RenderDish dishes={this.state.dishes.filter((dish)=>dish.category ==='16-25')} onClick={(dish)=>this.onDishSelect(dish)} />
             )
         }
         const vermicelliPage = () => {
             return(
-                <RenderDish dishes={this.state.dishes.filter((dish)=>dish.category ==='vermicelli')} onClick={(dish)=>this.onDishSelect(dish)} />
+                <RenderDish dishes={this.state.dishes.filter((dish)=>dish.category ==='26-36')} onClick={(dish)=>this.onDishSelect(dish)} />
             )
         }
         const comPage = () => {
             return(
-                <RenderDish dishes={this.state.dishes.filter((dish)=>dish.category ==='com')} onClick={(dish)=>this.onDishSelect(dish)} />
+                <RenderDish dishes={this.state.dishes.filter((dish)=>dish.category ==='37-48')} onClick={(dish)=>this.onDishSelect(dish)} />
             )
         }
         const drinkPage = () => {
@@ -76,12 +76,12 @@ class Main extends Component{
                 <Receipt receipt={this.state.selectedDishes}/>
                 <Header onClickHandler={this.resetDish} />
                 <Switch>
-                    <Route path='/appertizer' component={appertizerPage} />
+                    <Route path='/1-6d' component={appertizerPage} />
                     <Route path='/newDish' component={newDishPage} />
-                    <Route path='/pho' component={phoPage} />
-                    <Route path='/bun' component={bunPage} />
-                    <Route path='/vermicelli' component={vermicelliPage} />
-                    <Route path='/com' component={comPage} />
+                    <Route path='/7-15' component={phoPage} />
+                    <Route path='/16-25' component={bunPage} />
+                    <Route path='/26-36' component={vermicelliPage} />
+                    <Route path='/37-48' component={comPage} />
                     <Route path='/drink' component={drinkPage} />
                     <Route path='/sideOrder' component={sideOrderPage} />
                 </Switch>
