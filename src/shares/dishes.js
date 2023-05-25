@@ -68,7 +68,7 @@ export const DISHES = [
     {
         id: 'S.Rieu',
         name: 'Rieu Cua',
-        price: 11.03,
+        price: 11.50,
         category: '1-6d'
     },
     {
@@ -481,7 +481,7 @@ export const DISHES = [
     {
         id: 'Import Bia',
         name: 'Import Bia',
-        price: 7.74,
+        price: 7.48,
         category: 'drink'
     },
    {
