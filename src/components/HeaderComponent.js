@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import {Nav,NavItem} from 'reactstrap';
-import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 class Header extends Component{
     render(){
         return(
@@ -9,45 +9,45 @@ class Header extends Component{
                    {/*} <div className='row'> */}
                         <Nav justified fill pills tabs >
                             <NavItem>
-                                <Link style={{fontSize:'15px',color:'white'}} to="/newDish">
+                                <NavLink  activeStyle={{ backgroundColor: "green" }} style={{fontSize:'15px',color:'white', padding:'2px'}} to="/newDish">
                                 49-61a
-                                </Link>
+                                </NavLink>
                             </NavItem>
                             <NavItem>
-                                <Link style={{fontSize:'15px',color:'white'}}  to="/1-6d">
+                                <NavLink  activeStyle={{ backgroundColor: "green" }} style={{fontSize:'15px',color:'white', padding:'2px'}}  to="/1-6d">
                                 1-6d
-                                </Link>
+                                </NavLink>
                             </NavItem>
                             <NavItem> 
-                                <Link style={{fontSize:'15px',color:'white'}} to="/7-15">
+                                <NavLink activeStyle={{ backgroundColor: "green" }} style={{fontSize:'15px',color:'white', padding:'2px'}} to="/7-15">
                                 7-15
-                                </Link>
+                                </NavLink>
                             </NavItem>
                             <NavItem>
-                                <Link style={{fontSize:'15px',color:'white'}} to="/16-25">
+                                <NavLink activeStyle={{ backgroundColor: "green" }} style={{fontSize:'15px',color:'white', padding:'2px'}} to="/16-25">
                                 16-24
-                                </Link>
+                                </NavLink>
                             </NavItem>
                             <NavItem>
-                                <Link style={{fontSize:'15px',color:'white'}} to="/26-36">
+                                <NavLink activeStyle={{ backgroundColor: "green" }} style={{fontSize:'15px',color:'white', padding:'2px'}} to="/26-36">
                                 26-36
-                                </Link>
+                                </NavLink>
                             </NavItem>
                             <NavItem>
-                                <Link style={{fontSize:'15px',color:'white'}} to="/37-48">
+                                <NavLink activeStyle={{ backgroundColor: "green" }} style={{fontSize:'15px',color:'white', padding:'2px'}} to="/37-48">
                                 37-48
-                                </Link>
+                                </NavLink>
                             </NavItem>
                             <NavItem>
-                                <Link style={{fontSize:'15px',color:'white'}} to="/drink">
+                                <NavLink activeStyle={{ backgroundColor: "green" }} style={{fontSize:'15px',color:'white', padding:'2px'}} to="/drink">
                                 
                                 Drink
-                                </Link>
+                                </NavLink>
                             </NavItem>
                             <NavItem>
-                                <Link style={{fontSize:'15px',color:'white'}} to="sideOrder">
+                                <NavLink activeStyle={{ backgroundColor: "green" }} style={{fontSize:'15px',color:'white', padding:'2px'}} to="sideOrder">
                                 SideOrder
-                                </Link>
+                                </NavLink>
                             </NavItem>
                         </Nav>    
                     {/* </div> */}
