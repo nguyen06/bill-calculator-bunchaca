@@ -3,17 +3,21 @@ import RenderDish from './RenderComponent';
 import {DISHES} from '../shares/dishes';
 import Header from './HeaderComponent';
 import Receipt from './ReceiptComponent';
+import Total from './TotalComponent';
 import { Switch, Route, Redirect } from 'react-router-dom';
 import { Button } from 'reactstrap';
 
 const initalState = {
     dishes: DISHES,
-    selectedDishes: []
+    selectedDishes: [],
+    total: localStorage.getItem('total')
 };
 class Main extends Component{
     constructor(props){
         super(props);
         this.state = initalState;
+        localStorage.setItem('total',0);
+        //isNaN(localStorage.getItem('total')) ? 0 : localStorage.getItem('total');
     }
     onDishSelect =(dish)=>{
         this.setState({
@@ -21,14 +25,25 @@ class Main extends Component{
         })
     }
     resetDish =()=>{
-        this.setState( initalState);
+        //this.setState( initalState);
+        this.setState({
+            dishes: DISHES,
+            selectedDishes: [],
+            total: localStorage.getItem('total')
+        })
     }
     removeLast =()=>{
         this.setState({
             selectedDishes: this.state.selectedDishes.slice(0,-1)
         })
     }
+    addTotal =() =>{
 
+        localStorage.setItem('total',parseInt(localStorage.getItem("total")) + this.state.selectedDishes.map(item=>item.price).reduce((a,b)=>a+b,0));
+        this.setState({
+            total:localStorage.getItem('total')
+        })
+    }
     render(){
         const appertizerPage = () => {
             return(
@@ -79,13 +94,21 @@ class Main extends Component{
                             <Button color='primary' onClick={this.resetDish}>New Bill</Button>
                         </div>
                         <div>
-                            <Button >+++++++++</Button>
+                            <Button >+++</Button>
                         </div>
                         <div className='float-right'>
                             <Button color='primary' onClick={this.removeLast}>PoP</Button>
+                        </div>                        
+                        <div>
+                            <Button >+++</Button>
+                        </div>
+                        <div className='float-right'>
+                            <Button color='primary' onClick={this.addTotal}>getTotal</Button>
                         </div>
                     </div>
                 </div>
+                
+                <Total total={this.state.total}/>
                 <Receipt receipt={this.state.selectedDishes}/>
                 <Header onClickHandler={this.resetDish} />
                 <Switch>
