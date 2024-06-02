@@ -38,8 +38,7 @@ class Main extends Component{
         })
     }
     addTotal =() =>{
-
-        localStorage.setItem('total',parseInt(localStorage.getItem("total")) + this.state.selectedDishes.map(item=>item.price).reduce((a,b)=>a+b,0));
+        localStorage.setItem('total',(parseFloat(localStorage.getItem("total")) + this.state.selectedDishes.map(item=>item.price).reduce((a,b)=>a+b,0)));
         this.setState({
             dishes: DISHES,
             selectedDishes: [],
