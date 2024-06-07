@@ -11,6 +11,7 @@ const initalState = {
     dishes: DISHES,
     selectedDishes: [],
     total: localStorage.getItem('total')
+    //total:localStorage.getItem('total') !== 'null' ? 0 : localStorage.setItem('total',localStorage.getItem('total'))
 };
 class Main extends Component{
     constructor(props){
@@ -38,7 +39,7 @@ class Main extends Component{
         })
     }
     addTotal =() =>{
-        localStorage.setItem('total',(parseFloat(localStorage.getItem("total")) + this.state.selectedDishes.map(item=>item.price).reduce((a,b)=>a+b,0)));
+        localStorage.setItem('total',parseFloat(localStorage.getItem("total")) + this.state.selectedDishes.map(item=>item.price).reduce((a,b)=>a+b,0));
         this.setState({
             dishes: DISHES,
             selectedDishes: [],

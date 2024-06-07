@@ -130,6 +130,12 @@ export const DISHES = [
         name: 'extra $5',
         price: 5,
         category: 'side order'
+    },   
+    {
+        id: '$15',
+        name: 'extra $15',
+        price: 15,
+        category: 'side order'
     },
     {
         id: 'pho 0',
@@ -427,13 +433,13 @@ export const DISHES = [
     {
         id: 'So da',
         name: 'soda chanh/chanh muoi',
-        price: 7.35,
+        price: 7.84,
         category: 'drink'
     },
     {
         id: 'NCAM',
         name: 'nuoc cam',
-        price: 7.35,
+        price: 7.84,
         category: 'drink'
     },
     {
