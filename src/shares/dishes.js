@@ -451,7 +451,7 @@ export const DISHES = [
     {
         id: 'POP',
         name: 'nuoc ngot',
-        price: 3.15,
+        price: 3.36,
         category: 'drink'
     },
     {
