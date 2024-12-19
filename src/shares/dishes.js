@@ -152,97 +152,97 @@ export const DISHES = [
     {
         id: '07',
         name: 'Pho Dac Biet',
-        price: 16.95,
+        price: 17.95,
         category: '7-15'
     },
     {
         id: '08',
         name: 'Pho tai',
-        price: 16.95,
+        price: 17.95,
         category: '7-15'
     },
     {
         id: '09',
         name: 'Pho tai sach',
-        price: 16.95,
+        price: 17.95,
         category: '7-15'
     },
     {
         id: '10',
         name: 'Pho Nam',
-        price: 16.95,
+        price: 17.95,
         category: '7-15'
     },
     {
         id: '11',
         name: 'Pho Nam Bo Vien',
-        price: 16.95,
+        price: 17.95,
         category: '7-15'
     },
     {
         id: '12',
         name: 'Pho Bo Vien',
-        price: 16.95,
+        price: 17.95,
         category: '7-15'
     },
     {
         id: '13',
         name: 'Pho Tai Gan Sach',
-        price: 16.95,
+        price: 17.95,
         category: '7-15'
     },
     {
         id: '14',
         name: 'Pho Nam Gan Sach',
-        price: 16.95,
+        price: 17.95,
         category: '7-15'
     },
     {
         id: '15',
         name: 'Pho Tai Nam Gan Sach',
-        price: 16.95,
+        price: 17.95,
         category: '7-15'
     },
     {
         id: '16',
         name: 'Hu Tieu Do Bien Chua Cay',
-        price: 16.95,
+        price: 17.95,
         category: '16-25'
     },
     {
         id: '17',
         name: 'Hu Tieu Do Bien',
-        price: 16.95,
+        price: 17.95,
         category: '16-25'
     },
     {
         id: '18',
         name: 'Hu Tieu Dac Biet',
-        price: 16.95,
+        price: 17.95,
         category: '16-25'
     },
     {
         id: '19',
         name: 'Hu Tieu Ca Vien',
-        price: 16.95,
+        price: 17.95,
         category: '16-25'
     },
     {
         id: '20',
         name: 'Hu Tieu Ca',
-        price: 16.95,
+        price: 17.95,
         category: '16-25'
     },
     {
         id: '21',
         name: 'Bu Ca Chien',
-        price: 16.95,
+        price: 17.95,
         category: '16-25'
     },
     {
         id: '22',
         name: 'Bun Ca',
-        price: 16.95,
+        price: 17.95,
         category: '16-25'
     },
     {
@@ -254,7 +254,7 @@ export const DISHES = [
     {
         id: '24',
         name: 'Bun Cha Ca',
-        price: 16.95,
+        price: 17.95,
         category: '16-25'
     },
     {
@@ -421,7 +421,7 @@ export const DISHES = [
     {
         id: 'NDC',
         name: 'nuoc da chanh',
-        price: 6.03,
+        price: 6.42,
         category: 'drink'
     },
     {
