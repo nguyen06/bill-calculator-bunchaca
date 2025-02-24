@@ -4,13 +4,15 @@ import {DISHES} from '../shares/dishes';
 import Header from './HeaderComponent';
 import Receipt from './ReceiptComponent';
 import Total from './TotalComponent';
-import { Switch, Route, Redirect } from 'react-router-dom';
+import { Switch, Route } from 'react-router-dom';
 import { Button } from 'reactstrap';
 
 const initalState = {
     dishes: DISHES,
     selectedDishes: [],
-    total: localStorage.getItem('total')
+    total: localStorage.getItem('total'),
+    off: 0,
+    addTotal:false
     //total:localStorage.getItem('total') !== 'null' ? 0 : localStorage.setItem('total',localStorage.getItem('total'))
 };
 class Main extends Component{
@@ -30,7 +32,9 @@ class Main extends Component{
         this.setState({
             dishes: DISHES,
             selectedDishes: [],
-            total: localStorage.getItem('total')
+            total: localStorage.getItem('total'), 
+            off: 0,
+            addTotal:false
         })
     }
     removeLast =()=>{
@@ -38,12 +42,19 @@ class Main extends Component{
             selectedDishes: this.state.selectedDishes.slice(0,-1)
         })
     }
+    get15PercentOff=()=>{
+        this.setState({
+            off: 15
+        })
+    }
     addTotal =() =>{
-        localStorage.setItem('total',parseFloat(localStorage.getItem("total")) + this.state.selectedDishes.map(item=>item.price).reduce((a,b)=>a+b,0));
+        //localStorage.setItem('total',parseFloat(localStorage.getItem("total")) + this.state.selectedDishes.map(item=>item.price).reduce((a,b)=>a+b,0));
         this.setState({
             dishes: DISHES,
             selectedDishes: [],
-            total:localStorage.getItem('total')
+            //total:localStorage.getItem('total'),
+            off: 0,
+            addTotal:true
         })
     }
     render(){
@@ -100,6 +111,11 @@ class Main extends Component{
                         </div>
                         <div className='float-right'>
                             <Button color='primary' onClick={this.removeLast}>PoP</Button>
+                        </div> <div>
+                            <Button >+++</Button>
+                        </div>
+                        <div className='float-right'>
+                            <Button color='primary' onClick={this.get15PercentOff}>15% OFF</Button>
                         </div>                        
                         <div>
                             <Button >+++</Button>
@@ -111,7 +127,7 @@ class Main extends Component{
                 </div>
                 
                 <Total total={this.state.total}/>
-                <Receipt receipt={this.state.selectedDishes}/>
+                <Receipt receipt={this.state.selectedDishes} percentOff = {this.state.off} addTotal = {this.state.addTotal}/>
                 <Header onClickHandler={this.resetDish} />
                 <Switch>
                     <Route path='/1-6d' component={appertizerPage} />

@@ -12,8 +12,16 @@ const Receipt = (props) => {
                     </tr>
                 )
         });
-        const total = props.receipt.map(item=>item.price).reduce((a,b)=>a+b,0);
-
+        let total =0;
+        if(props.percentOff === 15){
+            total = props.receipt.map(item=>item.price).reduce((a,b)=>a+b,0) * 0.85;
+        }else{
+            total = props.receipt.map(item=>item.price).reduce((a,b)=>a+b,0);
+        }
+        if(props.addTotal === true){
+            props.addTotal = false;
+            localStorage.setItem('total',parseFloat(localStorage.getItem("total")) + total)
+        }   
         return(
             <div className='container table-scrolling'>
                 <div className='row '>
