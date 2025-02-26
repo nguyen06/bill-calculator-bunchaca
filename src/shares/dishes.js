@@ -74,13 +74,13 @@ export const DISHES = [
     {
         id: 'Combo kho',
         name: 'Combo cha gio/goi cuon',
-        price: 5,
+        price: 5.25,
         category: 'side order'
     },
     {
         id: 'Combo nuoc',
         name: 'Combo che/cafe/dua',
-        price: 841,
+        price: 8.41,
         category: 'side order'
     },
     {

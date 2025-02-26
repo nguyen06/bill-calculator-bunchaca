@@ -112,11 +112,11 @@ class Main extends Component{
                         <div className='float-right'>
                             <Button color='primary' onClick={this.removeLast}>PoP</Button>
                         </div> <div>
-                            <Button >+++</Button>
+                            {/* <Button >+++</Button> */}
                         </div>
-                        <div className='float-right'>
+                        {/* <div className='float-right'>
                             <Button color='primary' onClick={this.get15PercentOff}>15% OFF</Button>
-                        </div>                        
+                        </div>                         */}
                         <div>
                             <Button >+++</Button>
                         </div>
